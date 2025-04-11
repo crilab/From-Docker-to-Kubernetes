@@ -81,12 +81,19 @@ spec:
 Let's break this down:
 
 *   `apiVersion: v1`: Specifies the Kubernetes API version to use for creating this object. Core objects like Pods often use `v1`.
+
 *   `kind: Pod`: Specifies the type of Kubernetes object we want to create.
+
 *   `metadata`: Contains data that helps uniquely identify the object, like its `name`.
+
 *   `spec`: This is the most important part – it defines the *desired state* of the Pod.
+
 *   `containers`: A list of containers to run within the Pod (here, just one).
+
     *   `name`: A name for the container itself (useful within the Pod's definition).
+
     *   `image`: The Docker image to use.
+
     *   `command` and `args`: Specify the command to run in the container, overriding the image's default.
 
 Instead of `kubectl run`, you use `kubectl apply` to create (or update) resources from a file:
@@ -110,11 +117,17 @@ kubectl delete -f ubuntu-pod.yaml
 When should you use `kubectl run` versus `kubectl apply`?
 
 *   **Imperative (`run`, `delete pod ...`)**: Best for learning, quick experiments, debugging sessions (`kubectl exec`), and simple, one-off tasks. It's fast and direct.
+
 *   **Declarative (`apply -f`, `delete -f`)**: The preferred method for managing applications in development, testing, and production. It enables:
+
     *   **Version Control:** Store your configurations in Git.
+
     *   **Repeatability:** Easily recreate environments.
+
     *   **Auditing:** Track changes to configurations.
+
     *   **Collaboration:** Teams can work on shared configuration files.
+
     *   **Complexity:** Manage intricate setups that would be unwieldy with command-line flags.
 
 While you might start with imperative commands to explore, you should aim to use declarative YAML manifests for anything intended to persist or be reproduced.
