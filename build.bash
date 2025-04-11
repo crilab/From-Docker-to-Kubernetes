@@ -11,6 +11,7 @@ docker run \
     /chapters/Deployments.md \
     /chapters/Host_Ports.md \
     /chapters/Load_Balancers.md \
+    /chapters/PersistentVolumeClaims.md \
     --table-of-contents \
     --highlight-style=tango \
     --output /output/From_Docker_to_Kubernetes.html \

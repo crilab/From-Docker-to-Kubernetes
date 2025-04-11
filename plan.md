@@ -55,7 +55,22 @@ Add a section explaining how public clouds handle the LoadBalancer service diffe
 
 You must decide how to structure this chapter.
 
-# Volumes
+# PersistentVolumeClaims
+
+Provide a basic explanation of:
+- StorageClass
+- PersistentVolume
+- PersistentVolumeClaim
+
+Indicate which resources are created by end-users and which are managed by public cloud platforms.
+
+Assume the user is running MicroK8s with the hostpath-storage add-on. Explain how to create a pod (using the Ubuntu image from Docker Hub) with a volume mounted at a generic path like:
+
+/mnt/my-volume
+
+Also note that hostpath-storage is not suitable for production environments. Provide an example of how the lab can be adapted for a public cloud platform.
+
+You must decide how to structure this chapter.
 
 # ConfigMaps
 
