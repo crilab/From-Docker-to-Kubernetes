@@ -3,42 +3,13 @@
 
 # Single-Container Pods
 
-## What is a Pod?
-- Definition and purpose of a pod in Kubernetes
-- Difference between containers and pods
-- Comparison to Docker containers
+Start by explaining the fundamentals of Pods in Kubernetes and how they compare to Docker containers.
 
-## Why Use Single-Container Pods?
-- Use cases for single-container vs. multi-container pods
-- Simplicity and isolation in design
+Then, explain how to manage Pods (using the Ubuntu image) through imperative commands.
 
-## Creating a Pod with kubectl
-- Basic `kubectl run` example (ubuntu)
-- Inspecting pod status with `kubectl get pods`
-- Viewing logs with `kubectl logs`
+Next, transition to the declarative approach using YAML manifests.
 
-## Interacting with a Running Pod
-- Executing commands inside a pod (`kubectl exec`)
-- Port-forwarding to access services locally (`kubectl port-forward`)
-
-## Understanding Pod Lifecycle
-- Phases: Pending, Running, Succeeded, Failed, Unknown
-- Pod restarts and termination
-
-## Introduction to Manifests
-- What is a Kubernetes manifest?
-- YAML syntax overview
-- Declarative configuration vs imperative commands
-
-## Creating a Pod with a Manifest
-- Writing a simple pod YAML
-- Using `kubectl apply -f` to create from a manifest
-- Viewing and editing a live manifest (`kubectl edit`)
-
-## Best Practices for Single-Container Pods
-- Image versioning
-- Resource requests and limits
-- Readiness and liveness probes (brief intro)
+Conclude by reflecting on when it’s better to use imperative commands versus declarative configuration.
 
 # ReplicaSets
 
@@ -64,17 +35,16 @@
 
 <!--
 
+% From Docker to Kubernetes
+% Christian Åberg
+
 Create the chapter specified by the user.
 
-Use only the following images in examples:
-- `ubuntu`
-- `nginx`
-- `wordpress`
-- `mysql`
+Assume the user already has a good understanding of Docker and now wants to learn Kubernetes.
 
 Assume the user is running Kubernetes locally (e.g., via MicroK8s or Minikube), and tailor all network-related explanations accordingly. Clearly highlight how the behavior differs from deployments on real cloud platforms.
 
-Add new subsections where needed to improve structure or clarity.
+Plan the subsections and subsubsections appropriately.
 
 Maintain fluent, pedagogical language while avoiding excessive use of bullet points.
 
