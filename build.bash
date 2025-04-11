@@ -11,5 +11,5 @@ docker run \
     /chapters/Deployments.md \
     --table-of-contents \
     --highlight-style=tango \
-    --output /output/From_Kubernetes_to_Docker.html \
+    --output /output/From_Docker_to_Kubernetes.html \
     --standalone

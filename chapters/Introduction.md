@@ -1,4 +1,4 @@
-% From Kubernetes to Docker
+% From Docker to Kubernetes
 % Christian Åberg
 
 # Introduction
