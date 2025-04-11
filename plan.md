@@ -3,6 +3,8 @@
 
 # Single-Container Pods
 
+Assume the user has a basic understanding of Docker and is now looking to learn Kubernetes.
+
 Start by explaining the fundamentals of Pods in Kubernetes and how they compare to Docker containers.
 
 Then, explain how to manage Pods (using the Ubuntu image) through imperative commands.
@@ -47,8 +49,6 @@ You decide how to go further in the chapter (but make sure the user gets al leas
 % Christian Åberg
 
 Create the chapter (Heading 1) specified by the user.
-
-Assume the user has a basic understanding of Docker and is now looking to learn Kubernetes.
 
 Maintain a fluent, pedagogical tone.
 
