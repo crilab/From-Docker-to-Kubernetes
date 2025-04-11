@@ -84,6 +84,14 @@ You must decide how to structure this chapter.
 
 # Secrets
 
+In the previous chapter the user was introduced to ConfigMaps.
+
+This chapter introduces Secrets as an alternative for storing sesetive data.
+
+Provide an example where you create a Secret with some example text and attach is as an environment variable (Ubuntu from Docker Hub). But also point out they (like ConfigMaps) can be attached like files.
+
+You must decide how to structure this chapter.
+
 # ClusterIP
 
 # Network Policies

@@ -13,6 +13,7 @@ docker run \
     /chapters/Load_Balancers.md \
     /chapters/PersistentVolumeClaims.md \
     /chapters/ConfigMaps.md \
+    /chapters/Secrets.md \
     --table-of-contents \
     --highlight-style=tango \
     --output /output/From_Docker_to_Kubernetes.html \
