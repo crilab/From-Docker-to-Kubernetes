@@ -66,16 +66,18 @@
 
 Create the chapter specified by the user.
 
-Use fluent and pedagogical language throughout.
-
 Use only the following images in examples:
-  - `ubuntu`
-  - `nginx`
-  - `wordpress`
-  - `mysql`
+- `ubuntu`
+- `nginx`
+- `wordpress`
+- `mysql`
 
-Assume the user is running Kubernetes locally (e.g., via MicroK8s or Minikube), and adjust network-related explanations accordingly. Clearly point out how behavior differs on real cloud platforms.
+Assume the user is running Kubernetes locally (e.g., via MicroK8s or Minikube), and tailor all network-related explanations accordingly. Clearly highlight how the behavior differs from deployments on real cloud platforms.
 
-Add new subsections as needed to improve structure or clarity.
+Add new subsections where needed to improve structure or clarity.
+
+Maintain fluent, pedagogical language while avoiding excessive use of bullet points.
+
+Prefer oversimplifications to overly detailed explanations.
 
  -->
