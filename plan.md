@@ -108,7 +108,7 @@ In the previous chapter, the reader was introduced to ClusterIP as means of comm
 
 Introduce the reader to network policies.
 
-Provide an example where you set up nginx (Docker Hub) with a ClusterIP. Apply a minimalistic filter that only allows HTTP. Then create an ubuntu pod (Docker Hub) to verify the connection. Then change the port to see the connection is declined.
+Provide an example where you set up mysql (Docker Hub) with a ClusterIP. Apply a minimalistic filter that only allows standard port from instances with a specific label.
 
 You must decide how to structure this chapter.
 
