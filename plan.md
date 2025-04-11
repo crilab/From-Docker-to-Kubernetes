@@ -74,6 +74,14 @@ You must decide how to structure this chapter.
 
 # ConfigMaps
 
+In previous chapter the user was introduced to PVC.
+
+This chapter will introduce ConfigMaps as an alternative to volumes for storing configuration data.
+
+Provide an example where you create a ConfigMap with some example text and mount it to a specific path on a Ubuntu (Docker Hub) deployment.
+
+You must decide how to structure this chapter.
+
 # Secrets
 
 # ClusterIP
