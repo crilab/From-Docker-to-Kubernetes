@@ -8,6 +8,7 @@ docker run \
     /chapters/Introduction.md \
     /chapters/Single-Container_Pods.md \
     /chapters/ReplicaSets.md \
+    /chapters/Deployments.md \
     --table-of-contents \
     --highlight-style=tango \
     --output /output/From_Kubernetes_to_Docker.html \

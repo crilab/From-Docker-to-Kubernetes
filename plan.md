@@ -25,6 +25,10 @@ You decide how to go further in the chapter (but make sure the user gets al leas
 
 # Deployments
 
+IN THE PREVIOUS CHAPTER, the user created a ReplicaSet of NGINX instances and manually deleted pods to observe how the ReplicaSet automatically recreated them.
+
+This chapter introduces Deployments and explains how they differ from ReplicaSets. It builds upon the concepts covered in the previous chapter.
+
 # Services
 
 # Load Balancers
