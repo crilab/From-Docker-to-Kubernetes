@@ -55,15 +55,11 @@ Add a section explaining how public clouds handle the LoadBalancer service diffe
 
 You must decide how to structure this chapter.
 
-# Health Checks
+# Volumes
 
 # ConfigMaps
 
 # Secrets
-
-# Volumes
-
-# Multi-Container Pods
 
 # ClusterIP
 
