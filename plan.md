@@ -43,6 +43,18 @@ You must decide how to structure this chapter.
 
 # Load Balancers
 
+In the previous chapter, the reader learned how to expose deployments (NGINX from DockerHub) via HostPort. That chapter concluded by highlighting HostPort limitations, leading into this one.
+
+This chapter introduces the concept of `Kind: Service`, noting that there are several types, with a focus on `LoadBalancer`.
+
+Assume the reader is using a local MicroK8s setup with MetalLB enabled (IP range: 127.0.0.2–127.0.0.200).
+
+Create a new deployment before creating the LoadBalancer.
+
+Add a section explaining how public clouds handle the LoadBalancer service differently from the microk8s setup.
+
+You must decide how to structure this chapter.
+
 # Health Checks
 
 # ConfigMaps
