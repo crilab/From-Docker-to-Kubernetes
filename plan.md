@@ -42,12 +42,10 @@ Create the chapter (Heading 1) specified by the user.
 
 Assume the user has a basic understanding of Docker and is now looking to learn Kubernetes.
 
-Assume the user is running Kubernetes locally (e.g., via MicroK8s or Minikube), and tailor all network-related explanations accordingly. Clearly highlight how the behavior differs from deployments on real cloud platforms.
+Maintain a fluent, pedagogical tone.
 
-Plan the subsections and subsubsections appropriately.
+Plan a clear heading structure to eliminate the need for bullet points or numbered lists.
 
-Maintain a fluent, pedagogical tone while avoiding excessive reliance on bullet points and numbered lists.
-
-Prefer oversimplifications to overly detailed explanations.
+Maintain a fluent, pedagogical tone with oversimplifications to keep the text clean.
 
  -->

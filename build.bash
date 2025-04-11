@@ -6,6 +6,7 @@ docker run \
     -v "./output:/output" \
     pandoc/latex \
     /chapters/Introduction.md \
+    /chapters/Single-Container_Pods.md \
     --table-of-contents \
     --highlight-style=tango \
     --output /output/From_Kubernetes_to_Docker.html \
