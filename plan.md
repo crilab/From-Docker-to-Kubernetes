@@ -1,18 +1,6 @@
 % From Docker to Kubernetes
 % Christian Åberg
 
-<!--
-
-Use only the following images in examples:
-- ubuntu
-- nginx
-- wordpress
-- mysql
-
-Assume the user runs Kubernetes locally (microk8s/minikube) and adjust network explanations accordingly.
-
- -->
-
 # Single-Container Pods
 
 ## What is a Pod?
@@ -73,3 +61,19 @@ Assume the user runs Kubernetes locally (microk8s/minikube) and adjust network e
 # ClusterIP
 
 # Network Policies
+
+<!--
+
+- Create the chapter specified by the user.
+
+- Use fluent and pedagogical language throughout.
+
+- Use only the following images in examples:
+  - `ubuntu`
+  - `nginx`
+  - `wordpress`
+  - `mysql`
+
+- Assume the user is running Kubernetes locally (e.g., via MicroK8s or Minikube), and adjust network-related explanations accordingly. Clearly point out how behavior differs on real cloud platforms.
+
+ -->
