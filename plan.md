@@ -94,6 +94,14 @@ You must decide how to structure this chapter.
 
 # ClusterIP
 
+In previous chapters, the user set up NGINX (Docker Hub) and exposed it externally using LoadBalancer. We have not yet touched on Inter-Pod Communication.
+
+In this chapter, introduce ClusterIP.
+
+Provide a basic lab where you create a mysql (Docker Hub) that you expose with ClusterIP. Then create a Ubuntu pod (Docker Hub), install mysql-client and verify the connection.
+
+You must decide how to structure this chapter.
+
 # Network Policies
 
 <!--

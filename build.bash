@@ -14,6 +14,7 @@ docker run \
     /chapters/PersistentVolumeClaims.md \
     /chapters/ConfigMaps.md \
     /chapters/Secrets.md \
+    /chapters/ClusterIP.md \
     --table-of-contents \
     --highlight-style=tango \
     --output /output/From_Docker_to_Kubernetes.html \
