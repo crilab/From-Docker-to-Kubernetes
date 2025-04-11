@@ -38,9 +38,9 @@ Conclude by reflecting on when it’s better to use imperative commands versus d
 % From Docker to Kubernetes
 % Christian Åberg
 
-Create the chapter specified by the user.
+Create the chapter (Heading 1) specified by the user.
 
-Assume the user already has a good understanding of Docker and now wants to learn Kubernetes.
+Assume the user has a basic understanding of Docker and is now looking to learn Kubernetes.
 
 Assume the user is running Kubernetes locally (e.g., via MicroK8s or Minikube), and tailor all network-related explanations accordingly. Clearly highlight how the behavior differs from deployments on real cloud platforms.
 
