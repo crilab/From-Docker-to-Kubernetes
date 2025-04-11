@@ -9,6 +9,8 @@ Use only the following images in examples:
 - wordpress
 - mysql
 
+Assume the user runs Kubernetes locally (microk8s/minikube) and adjust network explanations accordingly.
+
  -->
 
 # Single-Container Pods
