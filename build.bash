@@ -9,6 +9,7 @@ docker run \
     /chapters/Single-Container_Pods.md \
     /chapters/ReplicaSets.md \
     /chapters/Deployments.md \
+    /chapters/Host_Ports.md \
     --table-of-contents \
     --highlight-style=tango \
     --output /output/From_Docker_to_Kubernetes.html \

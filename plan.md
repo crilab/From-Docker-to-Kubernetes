@@ -29,7 +29,17 @@ IN THE PREVIOUS CHAPTER, the user created a ReplicaSet of NGINX instances and ma
 
 This chapter introduces Deployments and explains how they differ from ReplicaSets. It builds upon the concepts covered in the previous chapter.
 
-# Services
+# Host Ports
+
+In previous chapters, the reader has been introduced to ReplicaSet and Deployment of NGINX (DockerHub image), but these have not yet been exposed to the network.
+
+This chapter introduces hostPorts as the first mechanism to expose pods to a network.
+
+The reader is expected to use microk8s for labs, so hostPort will be accessible via http://localhost.
+
+Highlight limitations and point out thats why introduce LoadBalancer in the next chapter.
+
+You must decide how to structure this chapter.
 
 # Load Balancers
 
