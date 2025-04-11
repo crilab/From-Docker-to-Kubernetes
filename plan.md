@@ -25,7 +25,7 @@ Assume the user runs Kubernetes locally (microk8s/minikube) and adjust network e
 - Simplicity and isolation in design
 
 ## Creating a Pod with kubectl
-- Basic `kubectl run` example
+- Basic `kubectl run` example (ubuntu)
 - Inspecting pod status with `kubectl get pods`
 - Viewing logs with `kubectl logs`
 
