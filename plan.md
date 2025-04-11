@@ -64,16 +64,18 @@
 
 <!--
 
-- Create the chapter specified by the user.
+Create the chapter specified by the user.
 
-- Use fluent and pedagogical language throughout.
+Use fluent and pedagogical language throughout.
 
-- Use only the following images in examples:
+Use only the following images in examples:
   - `ubuntu`
   - `nginx`
   - `wordpress`
   - `mysql`
 
-- Assume the user is running Kubernetes locally (e.g., via MicroK8s or Minikube), and adjust network-related explanations accordingly. Clearly point out how behavior differs on real cloud platforms.
+Assume the user is running Kubernetes locally (e.g., via MicroK8s or Minikube), and adjust network-related explanations accordingly. Clearly point out how behavior differs on real cloud platforms.
+
+Add new subsections as needed to improve structure or clarity.
 
  -->
