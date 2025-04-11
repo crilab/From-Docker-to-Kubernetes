@@ -46,7 +46,7 @@ Assume the user is running Kubernetes locally (e.g., via MicroK8s or Minikube), 
 
 Plan the subsections and subsubsections appropriately.
 
-Maintain fluent, pedagogical language while avoiding excessive use of bullet points.
+Maintain a fluent, pedagogical tone while avoiding excessive reliance on bullet points and numbered lists.
 
 Prefer oversimplifications to overly detailed explanations.
 
