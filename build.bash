@@ -15,6 +15,7 @@ docker run \
     /chapters/ConfigMaps.md \
     /chapters/Secrets.md \
     /chapters/ClusterIP.md \
+    /chapters/Network_Policies.md \
     --table-of-contents \
     --highlight-style=tango \
     --output /output/From_Docker_to_Kubernetes.html \

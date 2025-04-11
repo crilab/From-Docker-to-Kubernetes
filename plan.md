@@ -104,6 +104,14 @@ You must decide how to structure this chapter.
 
 # Network Policies
 
+In the previous chapter, the reader was introduced to ClusterIP as means of communicate with a database using DNS, but the communication was unfiltered.
+
+Introduce the reader to network policies.
+
+Provide an example where you set up nginx (Docker Hub) with a ClusterIP. Apply a minimalistic filter that only allows HTTP. Then create an ubuntu pod (Docker Hub) to verify the connection. Then change the port to see the connection is declined.
+
+You must decide how to structure this chapter.
+
 <!--
 
 % From Docker to Kubernetes
